@@ -19,4 +19,5 @@ li a {
 }
 li a :hover {
     background-color: aqua;
+    font-size: 100px;
 }
