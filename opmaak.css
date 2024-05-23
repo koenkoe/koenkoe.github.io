@@ -6,7 +6,7 @@ ul{
     background-color: cornsilk;
     }
 li {
-    float: inline-end;
+    float: left;
 }
 li a {
     display: block;
