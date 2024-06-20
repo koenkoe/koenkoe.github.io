@@ -8,7 +8,7 @@ ul{
 li {
     float: left; 
 } 
-<!--Hiermee zorg ik ervoor dat da de Lijst aan linkjes naar links gaat en hieronder maag ik de kleur van deze linkjes en wat ermee gebeurt als je je muis erover hovert--> 
+ 
 li a {
     display: block;
     color: burlywood;
