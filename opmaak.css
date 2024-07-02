@@ -14,11 +14,11 @@ li a {
     color: burlywood; /* dit zorgt voor de kleur */
     text-align: left;  /* Hierdoor gaat de tekst naar links */
     padding: 18px 20px;  /* dit geeft de grote aan */
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;/*dit zorgt voor het lettertype*/
     text-decoration: solid;
-    font-size: 26px; 
+    font-size: 26px; /*Hiermee bepaal ik de tekstgroote*/
 }
-li a:hover {
+li a:hover { /*hiermee laat ik de tekst een ander kleurtje krijgen als de gebruiker er met zijn of haar muis over heen gaat. ook wordt de tekst groter*/
     color: rgb(29, 32, 32);
     font-size: 30px;
 }
