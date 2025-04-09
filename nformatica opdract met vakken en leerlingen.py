@@ -1,5 +1,5 @@
-l = open(r"C:\Users\Koen Hoefsloot\Downloads\2025_04_09_leerlingen.txt", "r")
-v = open(r"C:\Users\Koen Hoefsloot\Downloads\2025_04_09_vakken.txt", "r")
+l = open(r"Jouw bestand", "r")#leerlingenbestand
+v = open(r"Jouw bestand", "r")#vakkenbestand
 h = 0
 meerdere = []
 
