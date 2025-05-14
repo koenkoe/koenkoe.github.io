@@ -1,5 +1,5 @@
 import requests
-Apikey = "2ce83f3da0cf3a40df03e190af3a29e2"
+Apikey = ""
 
 
 
