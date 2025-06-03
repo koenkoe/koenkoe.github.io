@@ -23,3 +23,6 @@ li a:hover { /*hiermee laat ik de tekst een ander kleurtje krijgen als de gebrui
     font-size: 30px;
 }
 
+body {
+  overflow-x: hidden;
+}
