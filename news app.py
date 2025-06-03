@@ -22,7 +22,7 @@ def MaakURL(host, endpoint, parameters):
 
 
 
-api_key     = "3397d7fcbb5f4d3a923f22df6d0d383f"
+api_key     = "Jouw key"
 
 
 host        = "https://newsapi.org/v2"
