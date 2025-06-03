@@ -56,3 +56,22 @@ Ik zit op het CLV en maak voor informatica deze webstie. Een andere website is b
   }
 </style>
 <img class="beweeg-afbeelding" src="https://img.freepik.com/premium-psd/flying-airplane-transparent-background-3d-rendering-illustration_494250-23698.jpg?w=1380" alt="Vliegtuig">
+<script>
+  const vliegtuig = document.getElementById("vliegtuig");
+
+  function probeerVliegen() {
+    const kans = Math.random(); // getal tussen 0 en 1
+    if (kans < 0.01 && !vliegtuig.classList.contains("vlieg")) {
+      // Start animatie
+      vliegtuig.classList.add("vlieg");
+
+      // Na 5 seconden animatie terugzetten
+      setTimeout(() => {
+        vliegtuig.classList.remove("vlieg");
+        vliegtuig.style.left = "-300px";
+      }, 5000);
+    }
+  }
+
+  setInterval(probeerVliegen, 1000); // elke seconde proberen
+</script>
