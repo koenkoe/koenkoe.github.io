@@ -40,3 +40,19 @@ Ik zit op het CLV en maak voor informatica deze webstie. Een andere website is b
 </html>
 <!--Hiermee zorg ik ervoor dat da de Lijst aan linkjes naar links gaat en hieronder maag ik de kleur van deze linkjes en wat ermee gebeurt als je je muis erover hovert-->
 <!--Dit zorgt ervoor dat de achtergrond een kleur krijgt-->
+<style>
+  .beweeg-afbeelding {
+    position: absolute;
+    top: 200px;
+    left: 0;
+    width: 200px;
+    z-index: 10;
+    animation: schuif 5s linear infinite;
+  }
+
+  @keyframes schuif {
+    0% { left: -250px; }
+    100% { left: 100%; }
+  }
+</style>
+<img class="beweeg-afbeelding" src="https://fseimg.imgix.net/2023/03/Egg1pd3P-4EgH8Vo9-flybywire-a320nx.jpg?auto=compress%2Cformat&fit=scale&h=576&q=90&w=1024" alt="Vliegtuig">
