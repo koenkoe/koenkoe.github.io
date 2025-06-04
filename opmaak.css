@@ -28,10 +28,10 @@ li a:hover { /* hiermee verandert de kleur en grootte bij hover */
 .beweeg-afbeelding {
   position: absolute;
   top: 200px;
-  left: -250px;  /* start buiten beeld */
+  left: -250px; /* start buiten beeld */
   width: 200px;
   z-index: 10;
-  /* animatie hier weg */
+  /* animatie verwijderen hier */
 }
 
 .vlieg {
@@ -39,10 +39,7 @@ li a:hover { /* hiermee verandert de kleur en grootte bij hover */
 }
 
 @keyframes vliegAnimatie {
-  0% {
-    left: -250px;
-  }
-  100% {
-    left: 100%;
-  }
+  0% { left: -250px; }
+  100% { left: 100%; }
 }
+
