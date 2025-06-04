@@ -40,36 +40,3 @@ Ik zit op het CLV en maak voor informatica deze webstie. Een andere website is b
 </html>
 <!--Hiermee zorg ik ervoor dat da de Lijst aan linkjes naar links gaat en hieronder maag ik de kleur van deze linkjes en wat ermee gebeurt als je je muis erover hovert-->
 <!--Dit zorgt ervoor dat de achtergrond een kleur krijgt-->
-<style>
-  .beweeg-afbeelding {
-    position: absolute;
-    top: 200px;
-    left: 0;
-    width: 200px;
-    z-index: 10;
-    animation: schuif 5s linear infinite;
-  }
-
-  @keyframes schuif {
-    0% { left: -250px; }
-    100% { left: 100%; }
-  }
-</style>
-<img id="vliegtuig" class="beweeg-afbeelding" src="https://img.freepik.com/premium-psd/flying-airplane-transparent-background-3d-rendering-illustration_494250-23698.jpg?w=1380" alt="Vliegtuig">
-<script>
-const vliegtuig = document.getElementById("vliegtuig");
-
-function probeerVliegen() {
-  const kans = Math.random();
-  if (kans < 0.01 && !vliegtuig.classList.contains("vlieg")) {
-    vliegtuig.classList.add("vlieg");
-    setTimeout(() => {
-      vliegtuig.classList.remove("vlieg");
-      vliegtuig.style.left = "-250px"; // terug naar startpositie
-    }, 5000);
-  }
-}
-
-setInterval(probeerVliegen, 1000);
-
-</script>
