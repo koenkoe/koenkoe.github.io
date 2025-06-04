@@ -1,31 +1,39 @@
-ul{
+ul {
     list-style-type: none;
-    margin: 20;
-    padding: 1;
+    margin: 20px;
+    padding: 1px;
     overflow: hidden;
     background-color: cornsilk;
-    }
+}
+
 li {
     float: left; 
-} 
- 
+}
+
 li a {
-    display: block; /* Dit zorgt ervoor dat het een blok word */
+    display: block; /* Dit zorgt ervoor dat het een blok wordt */
     color: burlywood; /* dit zorgt voor de kleur */
     text-align: left;  /* Hierdoor gaat de tekst naar links */
-    padding: 18px 20px;  /* dit geeft de grote aan */
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;/*dit zorgt voor het lettertype*/
-    text-decoration: solid;
-    font-size: 26px; /*Hiermee bepaal ik de tekstgroote*/
+    padding: 18px 20px;  /* dit geeft de grootte aan */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* dit zorgt voor het lettertype */
+    text-decoration: none; /* correctere waarde dan 'solid' */
+    font-size: 26px; /* Hiermee bepaal ik de tekstgrootte */
 }
-li a:hover { /*hiermee laat ik de tekst een ander kleurtje krijgen als de gebruiker er met zijn of haar muis over heen gaat. ook wordt de tekst groter*/
+
+li a:hover { /* hiermee verandert de kleur en grootte bij hover */
     color: rgb(29, 32, 32);
     font-size: 30px;
 }
 
-body {
-  overflow-x: hidden;
+.beweeg-afbeelding {
+  position: absolute;
+  top: 200px;
+  left: -250px;  /* start buiten beeld */
+  width: 200px;
+  z-index: 10;
+  /* animatie hier weg */
 }
+
 .vlieg {
   animation: vliegAnimatie 5s linear forwards;
 }
