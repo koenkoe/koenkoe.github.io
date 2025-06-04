@@ -26,3 +26,15 @@ li a:hover { /*hiermee laat ik de tekst een ander kleurtje krijgen als de gebrui
 body {
   overflow-x: hidden;
 }
+.vlieg {
+  animation: vliegAnimatie 5s linear forwards;
+}
+
+@keyframes vliegAnimatie {
+  0% {
+    left: -250px;
+  }
+  100% {
+    left: 100%;
+  }
+}
