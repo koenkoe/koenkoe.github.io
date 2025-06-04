@@ -25,21 +25,4 @@ li a:hover { /* hiermee verandert de kleur en grootte bij hover */
     font-size: 30px;
 }
 
-.beweeg-afbeelding {
-  position: absolute;
-  top: 200px;
-  left: -250px; /* start buiten beeld */
-  width: 200px;
-  z-index: 10;
-  /* animatie verwijderen hier */
-}
-
-.vlieg {
-  animation: vliegAnimatie 5s linear forwards;
-}
-
-@keyframes vliegAnimatie {
-  0% { left: -250px; }
-  100% { left: 100%; }
-}
 
