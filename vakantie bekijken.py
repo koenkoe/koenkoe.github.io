@@ -2,8 +2,8 @@ import requests
 import time
 
 
-Apikey = "2ce83f3da0cf3a40df03e190af3a29e2"
-Apikey2 = "bb4bb571f03d0a9654fd7c9e15491d01"
+Apikey = 
+Apikey2 = 
 
 
 
