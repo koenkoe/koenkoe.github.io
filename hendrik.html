@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Grote Foto</title>
+    <style>
+        /* Zorg dat body en html 100% van het scherm zijn */
+        html, body {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            overflow: hidden; /* voorkomt scrollen */
+        }
+        /* Zorg dat de afbeelding heel het scherm vult */
+        img {
+            width: 100vw;
+            height: 100vh;
+            object-fit: cover; /* zorgt dat afbeelding netjes past en bijsnijdt indien nodig */
+            display: block; /* verwijdert witruimte onder de afbeelding */
+        }
+    </style>
+</head>
+<body>
+    <img src="jouw-foto.jpg" alt="Grote foto" />
+</body>
+</html>
